@@ -5,7 +5,7 @@
     "express": "3.x"
   },
   "engines": {
-    "node": "0.8+",
+    "node": ">=0.8",
     "npm": "1.x"
   }
 }

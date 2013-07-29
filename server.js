@@ -4,10 +4,6 @@ var express = require("express")
 var app = express();
 app.use(express.logger());
 
-app.get('/', function(request, response) {
-  response.send('Hello World!');
-});
-
 var publicDir = path.join(__dirname, 'public')
 app.use( express.static(publicDir) );
 

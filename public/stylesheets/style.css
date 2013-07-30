@@ -1,0 +1,4 @@
+body {
+	/* need this because chrome cast defaults to black background */
+	background-color: #FFF
+}
